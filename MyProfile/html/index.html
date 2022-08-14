@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Profile</title>
+
+    <link rel="stylesheet" href="/css/main.css" />
+    <script src="/js/app.js" defer></script>
+  </head>
+
+  <div class="body">
+    <div class="container">
+      <div class="units">
+        <div class="frame card-left">
+          <div class="frame_content">
+            <img
+              src="/media/img/avatar.jpg"
+              alt="Моя фотография"
+              class="avatar-photo"
+            />
+          </div>
+        </div>
+
+        <div class="frame"></div>
+
+        <div class="frame frame-bg card-right">
+          <div class="card bg-grey">
+            <h1>Валерий Козлов</h1>
+            <p><em>Я начинающий тестировщик</em></p>
+            <p>Эта страница создана в целях изучения html, css, js</p>
+            <h4>Мои контакты</h4>
+            <a href="https://instagram.com/aqua_f1" target="_blank"
+              >Instagram</a
+            >
+            | <a href="https://t.me/aqesteli" target="_blank">Telegram</a>
+          </div>
+        </div>
+
+        <div class="frame"></div>
+
+        <div class="frame frame-bg card-left">
+          <div class="frame_content">
+            <div class="card bg-yellow">
+              <h2>Мои навыки</h2>
+              <ol type="I" class="list">
+                <li>
+                  Пишу документацию: Тест-кейсы, Чеклисты, Отчеты о дефектах
+                </li>
+                <li>
+                  Тестирую <strong>API</strong> при помощи инструмента
+                  <strong> Postman </strong>
+                </li>
+                <li>Составляю простые <strong>SQL</strong> запросы</li>
+                <li>Применяю в тестировании <strong> DevTools </strong></li>
+                <li>Знаком с <strong>HTML</strong>, <strong>CSS</strong></li>
+              </ol>
+            </div>
+          </div>
+        </div>
+
+        <div class="frame"></div>
+
+        <div class="frame frame-bg card-right">
+          <div class="frame_content">
+            <div class="card bg-purple">
+              <h2>Опыт работы</h2>
+              <table class="table">
+                <tr>
+                  <td>Компания</td>
+                  <td>Должность</td>
+                  <td>Год</td>
+                </tr>
+
+                <tr>
+                  <td>Яндекс Практикум</td>
+                  <td>Студент</td>
+                  <td>2021</td>
+                </tr>
+                <tr>
+                  <td>Здеь будет ваша компания</td>
+                  <td>QA Engineer</td>
+                  <td>2022-****</td>
+                </tr>
+              </table>
+            </div>
+          </div>
+        </div>
+
+        <div class="frame"></div>
+
+        <div class="frame frame-bg card-left">
+          <div class="frame-content">
+            <div class="info-text">
+              <div class="card bg-green">
+                <h2>Мое хобби</h2>
+                <a href="hobby.html">Посмотреть хобби</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="frame frame-bg">
+          <div class="frame-content">
+            <div class="info-text">
+              <div class="card bg-green">
+                <h2>Мои игры</h2>
+                <a href="/games/Flappy Bird/index.html">Играть в Flappy Bird</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="frame"></div>
+
+        <div class="frame">
+          <div class="frame-content">
+            <div class="card bg-red">
+              <h2>Написать мне</h2>
+              <br />
+              <form action="/">
+                <div class="row">
+                  <div class="form-group">
+                    <label for="text_1">Ваше Имя: </label>
+                    <input
+                      type="text"
+                      id="text_1"
+                      placeholder="Введите Имя..."
+                    />
+                  </div>
+
+                  <div class="form-group">
+                    <label for="text_2">Ваша Фамиля: </label>
+                    <input
+                      type="text"
+                      id="text_2"
+                      placeholder="Введите Фамилию..."
+                    />
+                  </div>
+                  <div class="form-group">
+                    <label for="text_3">Ваш E-mail: </label>
+                    <input
+                      type="text"
+                      id="text_3"
+                      placeholder="Введите E-mail..."
+                    />
+                  </div>
+                </div>
+                <div class="form-group">
+                  <label for="text_4">Написать сообщение: </label>
+                  <br />
+                  <textarea
+                    id="text_4"
+                    cols="30"
+                    rows="5"
+                    placeholder="Введите сообщение..."
+                  ></textarea>
+                </div>
+
+                <br />
+                <input class="btn" type="submit" value="Отправить" />
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</html>
