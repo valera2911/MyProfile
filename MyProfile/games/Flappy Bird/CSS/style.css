@@ -1,14 +1,22 @@
-#canvas {
-  display: block;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.canvas {
+  display: flex;
   margin: auto;
-  margin-top: 100px;
+  margin-top: 80px;
 }
 body {
-  background-color: #000;
-  color: #fff;
-  font-size: calc(var(--index) * 0.8);
-  font-family: fac, sans-serif;
-  line-height: 1.75;
-  height: var(--depth);
-  font-weight: 300;
+  background-color: black;
+}
+.game {
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+}
+
+.phoneFrame {
+  position: fixed;
 }

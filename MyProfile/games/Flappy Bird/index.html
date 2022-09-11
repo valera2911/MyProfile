@@ -6,15 +6,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Flappy Bird</title>
     <link rel="stylesheet" href="/games/Flappy Bird/CSS/style.css" />
-    <style>
-      body {
-        background: #000 url(Image/phoneFrame.png); 
-      }
-       </style>
+    <script src="js/game.js" defer></script>
   </head>
   <body>
+
+
     
-    <canvas id="canvas" width="288" height="512" ></canvas>
-    <script src="js/game.js" defer></script>
+    <div class="game">
+      <div class="phoneFrame">
+        <img src="/games/Flappy Bird/Image/phoneFrame.png" 
+        width="330"
+        height="670"
+        alt="Рамка телефона">
+      </div>
+      <div>
+        <canvas class="canvas" id="canvas" width="288" height="512"></canvas>
+      </div>
+    </div>
   </body>
 </html>

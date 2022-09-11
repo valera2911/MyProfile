@@ -23,13 +23,28 @@
 }
 body {
   background-color: #000;
-  color: #fff;
+  color: black;
   font-size: calc(var(--index) * 0.8);
   font-family: fac, sans-serif;
   line-height: 1.75;
   height: var(--depth);
   font-weight: 300;
 }
+/* Шапка сайта */
+.header {
+  background-color: #252b30;
+  position: fixed;
+  min-width: 100vw;
+}
+.btn-header {
+  padding: 15px 20px;
+  color: #ed3456;
+  background-color: #252b30;
+  font-family: inherit;
+  cursor: pointer;
+  margin: 0;
+}
+
 .container {
   width: 100%;
   height: 100%;
@@ -40,6 +55,7 @@ body {
   transform-style: preserve-3d;
   height: 100%;
 }
+/* Насткройка расположения элементов в контейнере*/
 .frame {
   width: 100%;
   height: 100%;
@@ -51,13 +67,17 @@ body {
   will-change: transform;
   transform-style: preserve-3d;
 }
-
+ a {
+  text-decoration: none;
+ }
+/* Прозрачность фрейма */
 .frame-bg {
   background-color: rgb(0 0 0/ .88);
   width: 100%;
   height: 100%;
-}
 
+}
+/* Настройки фото */
 .avatar-photo {
   width: 200px;
   border-radius: 28px;
@@ -70,13 +90,14 @@ body {
   margin: 10px;
   padding: 3px;
 }
-
+/* Текст на странице хобби */
 .hobby-text {
   text-align: center;
   font-family: mistral;
   font-size: 30px;
   color: #fff;
 }
+/* Настройка карточек */
 .card {
   border-radius: 20px;
   padding: 30px;
@@ -91,7 +112,7 @@ body {
 .card-right {
   left: calc(var(--side-big) / 2.5 * var(--index) + var(--gutter));
 }
-
+/* Цветовая палитра */
 .bg-grey {
   background: rgb(130, 128, 128);
 }
@@ -107,6 +128,10 @@ body {
 .bg-green {
   background: #3fa347;
 }
+.bg-blue {
+  background: #4987e4;
+}
+/* Таблицы */
 .table {
   font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
   font-size: 14px;
@@ -133,21 +158,11 @@ td {
 tr:hover td {
   color: #6699ff;
 }
+
 .form-group label {
   display: block;
   font-size: 14px;
   color: black;
-}
-.form-group input,
-.form-group textarea {
-  width: 100%;
-  box-sizing: border-box;
-  border: none;
-  /* background: transparent */
-  border-bottom: 1px solid #ccc;
-  color: rgb(0, 0, 0);
-  padding: 5px 0 10px;
-  font-family: inherit;
 }
 .row {
   display: flex;
