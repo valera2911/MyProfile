@@ -95,7 +95,12 @@ body {
   text-align: center;
   font-family: mistral;
   font-size: 30px;
-  color: #fff;
+  color: #000;
+}
+
+/* Настройка текста */
+.text {
+  color: #000;
 }
 /* Настройка карточек */
 .card {

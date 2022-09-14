@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="/css/main.css" />
+    <link rel="stylesheet" href="/fontello-a14bb36e/css/fontello.css">
+    <script src="/js/app.js" defer></script>
+    <!-- <link rel="shortcut icon" href="" class="icon-child" type="image/x-icon"> -->
+    <title>My Profile</title>
+  </head>
+  <body>
+    <!-- Шапка сайта --> 
+    <section>
+      <div>
+        <a href="/html/index.html" class="btn-header header" target="_blank">Главная</a>
+      </div>
+    </section>
+    <div class="container">
+      <div class="units">
+        <!-- Мое фото -->
+        <section class="frame card-left">
+          <div class="frame_content">
+            <img
+              src="/media/img/avatar.jpg"
+              alt="Моя фотография"
+              class="avatar-photo"
+            />
+          </div>
+        </section>
+        <!-- Информация обо мне  -->
+        <section class="frame frame-bg ">
+          <div class="card bg-grey card-right">
+            <h1>Валерий Козлов</h1>
+            <p><em>Я начинающий тестировщик</em></p>
+            <p>Эта страница создана в целях изучения html, css, js</p>
+            <h4>Мои контакты</h4>
+              <p>
+                <i class="icon-instagram"><a href="https://instagram.com/aqua_f1" 
+                ></a></i>
+            <i class="icon-telegram"><a href="https://t.me/aqesteli"></a></i>
+          </p>
+        </section>
+        <div class="frame"></div>
+        <!-- Выподающие списки моих навыков -->
+        <section class="frame frame-bg card-left">
+          <div class="frame_content">
+            <div class="card bg-yellow">
+              <h2>Мои навыки</h2>
+              <div class="accordion" id="accordionExample">
+                <div class="accordion-item bg-yellow">
+                  <h2 class="accordion-header bg-yellow" id="headingOne">
+                    <button
+                      class="accordion-button bg-yellow"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapseOne"
+                      aria-expanded="true"
+                      aria-controls="collapseOne"
+                    >
+                      Документация
+                    </button>
+                  </h2>
+                  <div
+                    id="collapseOne"
+                    class="accordion-collapse collapse show bg-yellow"
+                    aria-labelledby="headingOne"
+                    data-bs-parent="#accordionExample"
+                  >
+                    <div class="accordion-body">
+                      Имею учебный опыт написания чеклистов, тест кейсов,
+                      отчетов о дефекте.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item bg-yellow">
+                  <h2 class="accordion-header" id="headingTwo">
+                    <button
+                      class="accordion-button collapsed bg-yellow"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapseTwo"
+                      aria-expanded="false"
+                      aria-controls="collapseTwo"
+                    >
+                      API
+                    </button>
+                  </h2>
+                  <div
+                    id="collapseTwo"
+                    class="accordion-collapse collapse bg-yellow"
+                    aria-labelledby="headingTwo"
+                    data-bs-parent="#accordionExample"
+                  >
+                    <div class="accordion-body">
+                      Тестирую <strong>API</strong> при помощи инструмента.
+                      <strong> Postman </strong>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item bg-yellow">
+                  <h2 class="accordion-header" id="headingThree">
+                    <button
+                      class="accordion-button collapsed bg-yellow"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapseThree"
+                      aria-expanded="false"
+                      aria-controls="collapseThree"
+                    >
+                      SQL
+                    </button>
+                  </h2>
+                  <div
+                    id="collapseThree"
+                    class="accordion-collapse collapse"
+                    aria-labelledby="headingThree"
+                    data-bs-parent="#accordionExample"
+                  >
+                    <div class="accordion-body bg-yellow">
+                      Составляю простые <strong>SQL</strong> запросы.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item bg-yellow">
+                  <h2 class="accordion-header" id="headingThree">
+                    <button
+                      class="accordion-button collapsed bg-yellow"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapseThree"
+                      aria-expanded="false"
+                      aria-controls="collapseThree"
+                    >
+                      Языки программирования
+                    </button>
+                  </h2>
+                  <div
+                    id="collapseThree"
+                    class="accordion-collapse collapse bg-yellow"
+                    aria-labelledby="headingThree"
+                    data-bs-parent="#accordionExample"
+                  >
+                    <div class="accordion-body">Изучаю HTML, CSS, JS.</div>
+                  </div>
+                </div>
+                <div class="accordion-item bg-yellow">
+                  <h2 class="accordion-header" id="headingThree">
+                    <button
+                      class="accordion-button collapsed bg-yellow"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapseThree"
+                      aria-expanded="false"
+                      aria-controls="collapseThree"
+                    >
+                      Инструменты
+                    </button>
+                  </h2>
+                  <div
+                    id="collapseThree"
+                    class="accordion-collapse collapse bg-yellow"
+                    aria-labelledby="headingThree"
+                    data-bs-parent="#accordionExample"
+                  >
+                    <div class="accordion-body">
+                      VSCode, Postman, Devtools, Jira.
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <div class="frame"></div>
+        <!-- Опыт моей работы  -->
+        <section class="frame frame-bg card-right">
+          <div class="frame_content">
+            <div class="card bg-purple">
+              <h2>Опыт работы</h2>
+              <table class="table">
+                <thead>
+                  <tr>
+                    <td>Компания</td>
+                    <td>Должность</td>
+                    <td>Год</td>
+                  </tr>
+                </thead>
+
+                <tbody>
+                  <tr>
+                    <td>Яндекс Практикум</td>
+                    <td>Студент</td>
+                    <td>2021</td>
+                  </tr>
+                  <tr>
+                    <td>Здеь будет ваша компания</td>
+                    <td>QA Engineer</td>
+                    <td>2022-****</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </section>
+
+        <div class="frame"></div>
+        <!-- Мое хобби -->
+        <section class="frame frame-bg card-left">
+          <div class="frame-content">
+            <div class="info-text">
+              <div class="card bg-green">
+                <h2>Мое хобби</h2>
+                <a href="hobby.html">Посмотреть хобби</a>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- Мои игры -->
+        <section class="frame frame-bg">
+          <div class="frame-content">
+            <div class="info-text">
+              <div class="card bg-blue">
+                <h2>Мои игры</h2>
+                <div>
+                  <i class="icon-gamepad"></i>
+                <a href="/games/Flappy Bird/index.html" class="text">Играть в Flappy Bird</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <div class="frame"></div>
+        <!-- Форма отправки сообщения  -->
+
+        <section class="frame">
+          <div class="frame-content">
+            <div class="card bg-red">
+              <h2>Написать мне</h2>
+              <br />
+              <form action="/" method="post">
+                <div class="row">
+                  <div class="col-md-4">
+                    <label for="name" class="form-label">Имя</label>
+                    <input
+                      type="text"
+                      class="form-control bg-red"
+                      id="name"
+                      placeholder="Введите Имя..."
+                      name="user-name"
+                      required
+                    />
+                    <div id="nameHelp" class="form-text">
+                      2-12 букв кириллицы, без пробелов, спец.символом
+                    </div>
+                    <div class="valid-feedback">Все хорошо!</div>
+                  </div>
+
+                  <div class="col-md-4">
+                    <label for="lastname" class="form-label">Фамилия</label>
+                    <input
+                      type="text"
+                      class="form-control bg-red"
+                      id="lastname"
+                      placeholder="Введите Фамилию..."
+                      name="user-lastname"
+                      required
+                      aria-describedby="lastnameHelp"
+                    />
+                    <div id="lastnameHelp" class="form-text">
+                      2-12 букв кириллицы, без пробелов, спец.символом
+                    </div>
+                    <div class="valid-feedback">Все хорошо!</div>
+                  </div>
+
+                  <div class="col-md-4">
+                    <label for="email" class="form-label">Email адрес</label>
+                    <input
+                      type="email"
+                      class="form-control bg-red"
+                      id="email"
+                      placeholder="Введите Email..."
+                      name="user-email"
+                      aria-describedby="emailHelp"
+                    />
+                    <div id="emailHelp" class="form-text">12345@mail.ru</div>
+                  </div>
+                </div>
+                Важно!
+                <input type="radio" name="importance" value="Важно!" /><br />
+                Очень важно!
+                <input type="radio" name="importance" value="Очень важно!" />
+                <br />
+                <br />
+
+                <label for="message" class="form-label"
+                  >Написать сообщение:
+                </label>
+                <br />
+                <textarea
+                  name="message"
+                  class="form-control bg-red"
+                  id="message"
+                  cols="30"
+                  rows="5"
+                  placeholder="Введите сообщение..."
+                ></textarea>
+
+                <br />
+                <input class="btn" type="submit" value="Отправить" />
+              </form>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+
+    <script src="/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
