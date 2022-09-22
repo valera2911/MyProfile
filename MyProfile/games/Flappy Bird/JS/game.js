@@ -87,3 +87,8 @@ function displayingImage() {
 }
 
 pipeBottom.onload = displayingImage;
+
+
+function mainPage() {
+  window.open("index.html", '_self');
+}   //Загрузка главной страницы при нажатии кнопки "Главная" в шапке страницы

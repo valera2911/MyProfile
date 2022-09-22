@@ -31,18 +31,21 @@ body {
   font-weight: 300;
 }
 /* Шапка сайта */
-.header {
-  background-color: #252b30;
+.navbar {
   position: fixed;
-  min-width: 100vw;
+  margin-top: 0;
+  width: 100%;
+  overflow: hidden;
 }
-.btn-header {
+.btn-navbar {
   padding: 15px 20px;
   color: #ed3456;
   background-color: #252b30;
   font-family: inherit;
   cursor: pointer;
   margin: 0;
+  border-radius: 20px;
+  position: fixed;
 }
 
 .container {
@@ -50,6 +53,7 @@ body {
   height: 100%;
   position: fixed;
   perspective: 1500px;
+  margin-top: 50px;
 }
 .units {
   transform-style: preserve-3d;
@@ -180,4 +184,32 @@ tr:hover td {
   border-radius: 10px;
   font-family: inherit;
   cursor: pointer;
+}
+
+#message {
+  z-index: 10;
+}
+
+#games {
+  z-index: 20;
+}
+
+#hobby {
+  z-index: 30;
+}
+
+#experience {
+  z-index: 40;
+}
+
+#skills {
+  z-index: 50;
+}
+
+#info {
+  z-index: 60;
+}
+
+#avatar {
+  z-index: 70;
 }

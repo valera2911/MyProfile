@@ -20,3 +20,21 @@ body {
 .phoneFrame {
   position: fixed;
 }
+
+/* Шапка сайта */
+.navbar {
+  position: fixed;
+  margin-top: 0;
+  width: 100%;
+  overflow: hidden;
+}
+.btn-navbar {
+  padding: 15px 20px;
+  color: #ed3456;
+  background-color: #252b30;
+  font-family: inherit;
+  cursor: pointer;
+  margin: 0;
+  border-radius: 20px;
+  position: fixed;
+}
